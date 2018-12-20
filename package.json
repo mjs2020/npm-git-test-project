@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mjs2020/npm-git-test-project/issues"
   },
-  "homepage": "https://github.com/mjs2020/npm-git-test-project#readme"
+  "homepage": "https://github.com/mjs2020/npm-git-test-project#readme",
+  "dependencies": {
+    "npm-git-test-dep1": "git+ssh://git@github.com/mjs2020/npm-git-test-dep1.git#v1.0.1",
+    "npm-git-test-dep2": "git+ssh://git@github.com/mjs2020/npm-git-test-dep2.git#v1.0.1"
+  }
 }
